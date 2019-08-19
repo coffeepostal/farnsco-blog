@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i|Montserrat:100,100i,300,300i,800,900,900i|IM+Fell+Great+Primer:400i&display=swap');
+
+html {
+  font-size: var(--base-font-size);
+}
+
+body {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+p {
+  font-family: 'Arvo', serif;
+  margin-bottom: 1.25em;
+}
+
+h1, h2, h3, h4, h5 {
+  transition: color .6s;
+  color: var(--title-color);
+  margin: 2.75rem 0 1rem;
+  font-family: 'Montserrat', serif;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 22px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+h6 {
+
+}
+
+p {
+
+}
+
+small {font-size: 0.889em;}
+
+strong {
+  font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+blockquote {
+  border-left: 4px solid var(--border-color);
+  padding-left: calc(var(--space) / 2);
+  color: var(--title-color);
+}
+
+em {
+  font-style: italic;
+}
+
+ul {
+  font-family: 'IM Fell Great Primer', serif;
+  color: var(--link-color);
+  list-style-type: disc;
+  margin-left: 1.25em;
+  margin-bottom: 1.25em;
+  li {
+    margin-bottom: .6em;
+  }
+}
+ol {
+  font-family: 'IM Fell Great Primer', serif;
+  color: var(--link-color);
+  list-style-type: decimal;
+  margin-left: 1.25em;
+  margin-bottom: 1.25em;
+  li {
+    margin-bottom: .6em;
+  }
+}
